@@ -21,5 +21,6 @@ public class DropdownList {
         {
             System.out.println(cont.get(i).getText());
         }
+        driver.close();
     }
 }
