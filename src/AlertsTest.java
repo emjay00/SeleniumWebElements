@@ -39,7 +39,5 @@ public class AlertsTest {
         action.moveToElement(element2).click().build().perform();
         alert.sendKeys("Joseph");
         alert.accept();
-
-
     }
 }
